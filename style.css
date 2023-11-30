@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hedear{
+    height: 61px;
+    width:100%;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    align-items: center;
+    padding-left: 70px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    
+}
+.hedear img{
+    height: 35px;
+    width: 35px;
+    font-size: 16px; 
+}
+.hedear a{
+    text-decoration: none;
+    color: rgb(223, 221, 221);
+    font-size: 16px;
+}
+.scndhdr{
+    height: 44px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+}
+.fstpage{
+    height: 700px;
+    width: 100%;
+    /* background-color: rgb(50, 50, 50); */
+    background-image: url(images/bg-image.jpg);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 50px;
+}
+.fstpage h1{
+    color: white;
+    margin-top: 60px;
+    font-size: 50px;
+}
+.fstpage h3{
+    color: white; 
+    margin-top:85px;
+    margin-left: 120px;
+    font-size: 26px;
+    font-weight: lighter;
+}
+.fstpage button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    margin-bottom: 450px;
+    margin-left: 250px;
+    color: white;
+    background-color: transparent;
+    border: none;
+
+}
+.scndpage{
+    height: 700px;
+    width: 100%;
+    background-image: url(images/razer\ img.jpg);
+    background-size: cover;
+    border-top: 12px solid rgb(69, 68, 68);
+    border-bottom: 12px solid rgb(69, 68, 68);
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: grid;
+    grid-template-rows: .1fr .1fr .1fr;
+    row-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+.fstdiv{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(230, 133, 6);
+    display: grid;
+    justify-content: center;
+}
+.fstdiv p{
+    font-size: 10px;
+    padding-top: 5px;
+}
+.fstdiv h5{
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+.scnddiv{
+    color: white;
+    text-align: center;
+}
+.scnddiv h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.thrddiv button{
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    background-color:transparent;
+    color: white;
+    border: none;
+}
+.thrdpage{
+    height: 700px;
+    width: 100%;
+    background-image: url(images/img\ rzr.jpg);
+    background-size: cover;
+    border-bottom: 12px solid rgb(69, 68, 68);
+    color: white;
+}
+.cndnt1{
+    display: grid;
+    grid-template-rows: .1fr .1fr;
+    row-gap: 20px;
+    align-items: center;
+    justify-items: center;  
+    padding-top: 50px;
+
+}
+.hd2 button{
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    background-color:transparent;
+    color: white;
+    border: none;
+}
+.hd h1{
+    font-size: 50px;
+    margin-bottom: 15px;   
+}
+.hd{
+    text-align: center;
+}
+.frthpage{
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 12px;
+    background-color: rgb(69, 68, 68);
+}
+.fstprt{
+    height: 570px;
+    width: 100%;
+    background-image:url(images/fstimage1.jpg);
+    background-size: cover;
+    color: white;
+}
+.fstprt{
+    display: grid;
+    grid-template-rows: .1fr .1fr;
+    row-gap: 20px;
+    align-items: center;
+    justify-items: center;  
+    padding-top: 50px;
+
+}
+.btn1 button{
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    background-color:transparent;
+    color: white;
+    border: none;
+}
+.txt1 h1{
+    font-size: 30px;
+    margin-bottom: 15px;   
+}
+.txt1{
+    text-align: center;
+}
+.txt1 h3{
+    font-size: 20px;
+}
+.scndprt{
+    height: 570px;
+    width: 100%;
+    background-image: url(images/scndimage.jpg);
+    background-size: cover;
+
+}
+.scndprt{
+    display: grid;
+    grid-template-rows: .1fr .1fr;
+    row-gap: 20px;
+    align-items: center;
+    justify-items: center;  
+    padding-top: 50px;
+    color: white;
+
+}
+.btn2 button{
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    background-color:transparent;
+    color: white;
+    border: none;
+}
+.txt2 h1{
+    font-size: 35px;
+    margin-bottom: 15px;   
+}
+.txt2{
+    text-align: center;
+}
+.txt2 h3{
+    font-size: 20px;
+}
+.thrdprt{
+    height: 570px;
+    width: 100%;
+    background-image: url(images/thrdimage4.jpg);
+    background-size: cover;
+
+}
+.thrdprt{
+    display: grid;
+    grid-template-rows: .1fr .1fr;
+    row-gap: 20px;
+    align-items: center;
+    justify-items: center;  
+    padding-top: 50px;
+    color: white;
+
+}
+.btn3 button{
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    background-color:transparent;
+    color: white;
+    border: none;
+}
+.txt3 h1{
+    font-size: 30px;
+    margin-bottom: 15px;   
+}
+.txt3{
+    text-align: center;
+}
+.txt3 h3{
+    font-size: 20px;
+}
+.frthprt{
+    height: 570px;
+    width: 100%;
+   background-image: url(images/frthimg.jpg);
+   background-size: cover;
+
+}
+.frthprt{
+    display: grid;
+    grid-template-rows: .1fr .1fr;
+    row-gap: 20px;
+    align-items: center;
+    justify-items: center;  
+    padding-top: 50px;
+    color: white;
+}
+.btn4 button{
+    height: 35px;
+    width: 110px;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    background-color:transparent;
+    color: white;
+    border: none;
+}
+.txt4 h1{
+    font-size: 30px;
+    margin-bottom: 15px;   
+}
+.txt4{
+    text-align: center;
+}
+.txt4 h3{
+    font-size: 20px;
+}
+.fifthprt{
+    height: 570px;
+    width: 100%;
+    background-image: url(images/fifthimage1.jpg);
+    background-size: cover;
+}
+.fifthprt{
+    display: grid;
+    grid-template-rows: .1fr .1fr;
+    row-gap: 20px;
+    align-items: center;
+    justify-items: center;  
+    padding-top: 50px;
+    color: white;
+}
+.btn5 button{
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    background-color:transparent;
+    color: white;
+    border: none;
+}
+.txt5 h1{
+    font-size: 35px;
+    margin-bottom: 15px;   
+}
+.txt5{
+    text-align: center;
+}
+.txt5 h3{
+    font-size: 20px;
+}
+.sixthprt{
+    height: 570px;
+    width: 100%;
+   background-image: url(images/sixthimage1.jpg);
+   background-size: cover;
+}
+.sixthprt{
+    display: grid;
+    grid-template-rows: .1fr .1fr;
+    row-gap: 20px;
+    align-items: center;
+    justify-items: center;  
+    padding-top: 50px;
+    color: white;
+}
+.btn6 button{
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    background-color:transparent;
+    color: white;
+    border: none;
+}
+.txt6 h1{
+    font-size: 30px;
+    margin-bottom: 15px;   
+}
+.txt6{
+    text-align: center;
+}
+.txt6 h3{
+    font-size: 20px;
+}
+.fifthpage{
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr 1fr 1fr 1fr 1.8fr .5fr;
+    height: 300px;
+    width: 100%;
+    background-color:rgb(15, 12, 12);
+    align-items: center;
+    /* justify-content: center; */
+    border-bottom: 1px rgb(38, 37, 37) solid;
+    color: white;
+    border-top:  12px solid rgb(69, 68, 68);
+}
+.fifthpage p{
+    line-height: 25px;
+    font-size: 12px;
+}
+.fifthpage h5{
+    line-height: 25px;
+}
+.fst{
+    height:270px ;
+    color: lightgray;
+
+    
+}
+.scnd{
+    height:270px ;
+    color: lightgray;
+}
+.thrd{
+    height:270px ;
+    color: lightgray;
+}
+.frth{
+    height:270px ;
+     color: lightgray
+}
+.fifth{
+    height:270px ;
+    color: lightgray;
+}
+.sixth{
+    height:270px ;
+    color: green;
+}
+.sixth h4{
+    line-height: 30px;
+}
+.fifth img{
+    height: 28px;
+    width: 28px;
+    display: grid;
+    grid-template-columns: ;
+    gap: 20px;
+    
+}
+.ftr{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr 1fr 1fr 1fr 3fr 2fr 1fr ;
+    color: white;
+    font-size: 12px;
+    align-items: center;
+}
